@@ -4,19 +4,21 @@ import css from './App.module.css';
 // import NavBarSimple from "./components/NavBarSimple";
 // import PostItem from "./components/PostItem";
 // import NavBarChild from "./components/NavBarChild";
-import Loader from "./components/Loader";
+// import Loader from "./components/Loader";
+import Content from "./components/Content";
 
 //  <Sidebar />
 //  <NavBarForm />
 //  <NavBarSimple />
 //  <PostItem />
 //  <NavBarChild />
+//  <Loader />
 
 function App() {
   return (
     <div className={css.App}>
       {/* Add your components here */}
-      <Loader />
+      <Content />
       
     </div>
   );
