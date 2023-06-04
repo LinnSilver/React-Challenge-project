@@ -1,26 +1,26 @@
 import css from './App.module.css';
-// import Sidebar from "./components/Sidebar";
-// import NavBarForm from "./components/NavBarForm";
-// import NavBarSimple from "./components/NavBarSimple";
-// import PostItem from "./components/PostItem";
-// import NavBarChild from "./components/NavBarChild";
+import Sidebar from "./components/Sidebar";
+import NavBarForm from "./components/NavBarForm";
+import NavBarSimple from "./components/NavBarSimple";
+
+import NavBarChild from "./components/NavBarChild";
 import Content from "./components/Content";
 import Loader from "./components/Loader";
-
-//  <Sidebar />
-//  <NavBarForm />
-//  <NavBarSimple />
-//  <PostItem />
-//  <NavBarChild />
-//  <Loader />
-//  <Content />
+import ContentHooks from "./components/ContentHooks";
+// import PostItem from "./components/PostItem";
+// <PostItem />
 
 function App() {
   return (
     <div className={css.App}>
-      {/* Add your components here */}
-      <Content />
-      <Loader />
+     <Sidebar />
+     <NavBarForm />
+     <NavBarSimple />
+     
+     <NavBarChild />
+     <Content />
+     <ContentHooks />
+     <Loader />
       
     </div>
   );
